@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <!-- <a href="#"><img src="img/logo.jpg" alt="...."></a> -->
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="Aboutus.html" data-after="About">About Us</a></li>
+            <li><a href="contactus.html" data-after="Contact">Contact Us</a></li>
+            <li><a href="cases.html" data-after="Cases">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT US -------  -->
+  <div class="container-xxl py-5">
+    <div class="containeru">
+      <div class="rowk g-5">
+        <div class="cou-lg-6 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+          <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
+            Contact Us
+          </div>
+          <h1 class="display-6 mb-5">If You Have Any Query, Please Contact Us</h1>
+          <form>
+             <div class="rowf g-3">
+               <div class="col-md-6">                    
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="name" placeholder="">
+                  <label for="name">Your Name</label>
+                 </div>
+               </div>
+               <div class="col-md-6">
+                 <div class="form-floating">
+                  <input type="email" class="form-control" id="email" placeholder="">
+                  <label for="email">Your Email</label>
+                 </div>
+                </div>
+                <div class="col-12">
+                 <div class="form-floating">
+                  <input type="text" class="form-control" id="subject" placeholder="">
+                  <label for="subject">Subject</label>
+                 </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                   <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                   <label for="message"></label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary py-2 px-3 me-3">
+                     Send Message 
+                    <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                      <i class="fa fa-arrow-right"></i>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- END OF CONTACT US =---  -->
+    <!-- <section id="contact" class="contact section-bg">
+        <div class="container-bg">
+          <div class="section-title">
+            <h2 data-aos="fade-in" class="aos-init aos-animate">
+              Contact
+            </h2>
+
+          </div>
+          <div class="rowd">
+            <div class="col-6">
+              <div class="rowp">
+                <div class="col-md">
+                  <div class="info-box aos-init aos-animate" data-aos="fade-up">
+                    <i class="fa-solid fa-location-dot fa-sm" style="color: #FFD43B;"></i>
+                    <h3>Our Address</h3>
+                    <p>
+                      40b, Wogu Street, D/line, (Port Harcourt)
+                    </p>
+
+                  </div>
+                </div>
+                <div class="email1">
+                  <div class="info-box2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-envelope fa-sm" style="color: #FFD43B;"></i>
+                    <h3>Email Us</h3>
+                    <p>
+                      <a href="mailto:info@pilexcentre.org" style="color:#284864 ;font-weight: bold;">Hello@pilexcentre.com</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="call">
+                  <div class="info-box3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-phone fa-sm" style="color: #FFD43B;"></i>
+                    <h3>Call Us</h3>
+                    <p>
+                      +2348102820496
+                      <br>
+                      +2348032925998
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="send">
+              <form action="contactcheck.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up">
+                <div class="form-row">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name"
+                    placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at
+                    least 4 chars">
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="name" id="name"
+                    placeholder="Your Email" data-rule="email" data-msg="Please enter a
+                    valid email">
+                    <div class="validate"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject"
+                  placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at
+                  least 8 chars of subject">
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validate"></div>
+                </div>
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message" style="background-color: mediumseagreen;"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center">
+                  <input type="submit" name="submit" value="send"
+                  style="background-color: orange; color: black; width: 150px;padding: 10px;
+                  border: none;font-weight: bold;">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- FOOTER START ----  -->
+      <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+        <div class="containerl py-5">
+          <div class="rown g-5">
+            <div class="col-lg-3 col-md-6">
+              <img src="img/logo.jpg" alt="Oneness logo" style="height: 100px; margin-left: 20px;">
+              <!-- <P>
+                Educate out-of-school children on the value of education by returning them to the classroom where they belong
+              </P> -->
+              <div class="d-flex pt-2">
+                <a href="http://facebook.com/PILEX Centre">
+                  <i class="fa-brands fa-facebook fa-sm" style="color: #134396;"></i>
+               </a>
+               <a href="http://X.com/PilexCentre">
+                <i class="fa-brands fa-square-x-twitter" style="color: #05070a;"></i>
+             </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-light mb-4">Address</h5>
+              <P>
+                <i class="fa fa-map-marker-alt me-3"></i>
+                40b Wogu Street, D/line, Port-Harcourt, Nigeria.
+              </P>
+              <p>
+                <i class="fa fa-phone-alt me-3"></i>
+                +2348102820496, +2348032925998
+              </p>
+              <p>
+              <a href="http://info@pilexcentre.ngo">
+                <i class="fa-solid fa-envelope fa-sm" style="color: #FFD43B;"></i>
+                
+               </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-light mb-4">Quick Links</h5>
+              <a class="btn btn-link" href="Aboutus.html">About Us</a>
+              <a class="btn btn-link" href="contactus.html">Contact Us</a>
+              <a class="btn btn-link" href="cases.html">Gallery</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h5 class="text-light mb-4">Newsletter</h5>
+              <p>Get our weekly newsletter sent right to your inbox.</p>
+              <div class="position-relative mx-auto" style="max-width: 400px;">
+                <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END OF FOOTER -----  -->
+      <footer class="footer">
+        <div class="footer-text">
+          <p>&copy; Copyright <strong><span>Pilex Centre</span></strong>. All Rights Reserved</p>
+          
+        </div>
+        <!-- <div class="social-icon">
+            <a href="http://X.com/PilexCentre">
+               <i class="fa-brands fa-square-x-twitter" style="color: #05070a;"></i>
+            </a>
+             <a href="http://facebook.com/PILEX Centre">
+                <i class="fa-brands fa-facebook fa-sm" style="color: #134396;"></i>
+             </a>
+             <a href="http://info@pilexcentre.ngo">
+              <i class="fa-solid fa-envelope fa-sm" style="color: #FFD43B;"></i>
+             </a>
+             
+        </div>
+        -->
+
+      </footer>
+      <a href="#" class="back-to-top" style="display: inline;">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+      <script src="./app.js"></script>
+</body>
+</html>
